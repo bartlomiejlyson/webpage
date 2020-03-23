@@ -1,0 +1,28 @@
+body {
+    background-image: linear-gradient(rgba(254, 165, 18, 0.5), rgba(0, 0, 255, 0.5));
+    /*background-image: url('../images/background.jpg');
+    background-size: 100%;
+    background-attachment: fixed;*/ 
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    text-align: left;
+    font-style: italic;
+    font-size: 75%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.li {
+    color: green;
+}

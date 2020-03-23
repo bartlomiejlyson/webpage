@@ -1,0 +1,115 @@
+﻿ <!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+	<meta charset="UTF-8"> <!-- polskie kodowanie znaków -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- skalowanie strony -->
+	<meta name="description" content="Wanted guitars">
+	<title>Bartek's most wanted guitars</title> <!-- tytuł strony -->
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/style.css"> <!-- odniesienie do css -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&amp;subset=latin-ext" rel="stylesheet"> <!-- czcionka -->
+  </head>
+  <body>
+	<header>
+		<h1>Which guitars are most wanted by Bartek?</h1><!-- nagłówek -->
+	</header>
+	<main>
+		<ul> <!-- lista punktowna -->
+            <h2><li class="li">Ibanez</li></h2>	
+				<ol> <!-- lista numerowana -->
+					<h3><li>Ibanez AZ Prototype [Tim's Henson from Polyphia]</li></h3>
+						<p>Tim's Henson bubblegum pink AZ.</p> 
+						<img src="images/big_25017959_155459341879979_8861771657803464704_n.jpg" alt="Tims AZ" width="300">
+					<h3><li>Ibanez PGM301 [Paul Gilbert sig.]</li></h3>
+						<p>Paul's Gilbert signature model which has non-floating bridge type.</p>
+						<img src="images/s-l1600.jpg" alt="Gilberts sig." width="300">
+				</ol>
+		
+            <h2><li class="li">Strandberg</li></h2>
+				<ol>
+					<h3><li>Strandberg Boden 7</li></h3>
+						<p>Very universal machine</p>
+						<img src="images/stradbergboden7.jpg" alt="Strandberg Boden 7" width="300">
+				</ol>	
+		</ul>
+			<hr>
+				<form name="myBasicForm">
+					<label for="name">Podaj swoje imię:</label>
+					<input type="text" id="name" class="input">
+				
+				<p>
+					<label for="emailData">Adres e-mail:</label>
+					<input type="email" id="emailData" class="input">
+				</p>
+				
+				<p>
+					<label for="urlData">Adres strony internetowej:</label>
+					<input type="url" id="urlData" class="input">
+				</p>
+			
+				<p>
+					<label for="dateData">Data:</label>
+					<input type="date" id="dateData" class="input">
+				</p>
+				
+				<p>
+					<label for="numberData">Numer tel:</label>
+					<input type="number" id="numberData" class="input">
+	            </p>
+
+			<hr>	
+				<p>Which one is the cutes? All of them?</p>
+				
+				<label for="checkbox1">
+					<input type="checkbox" id="checkbox1" name="myGroup">
+					Ibanez AZ Prototype [Tim's Henson from Polyphia]
+				</label>
+				<label for="checkbox2">
+					<input type="checkbox" id="checkbox2" name="myGroup">
+					Ibanez PGM301 [Paul Gilbert sig.]
+				</label>
+				<label for="checkbox3">
+					<input type="checkbox" id="checkbox3" name="myGroup">
+					Strandberg
+				</label>
+			
+			<p>But you have to choose only one:</p>
+			
+				<label for="radiobutton1">
+					<input type="radio" id="radiobutton1" name="myGroup">
+					Ibanez AZ Prototype [Tim's Henson from Polyphia]
+				</label>
+				<label for="radiobutton2">
+					<input type="radio" id="radiobutton2" name="myGroup">
+					Ibanez PGM301 [Paul Gilbert sig.]
+				</label>
+				<label for="radiobutton3">
+					<input type="radio" id="radiobutton3" name="myGroup">
+					Strandberg
+				</label>
+			
+            <hr>
+				<label for="fileUpload">
+					Upload yours:
+					<input type="file" id="fileUpload">
+				</label>
+				
+				<hr>
+				<textarea rows="10" cols="30">Write here sth about yourself</textarea>
+				<hr>
+	            
+				<label for="favFinderboard">Choose your favorite fingerboard material:</label>
+				<select id="favFingerboard">
+				  <option value="maple">Maple</option>
+				  <option value="rosewood">Rosewood</option>
+				  <option value="ebony">Ebony</option>
+				  <option value="other">Other</option>
+				</select>
+		</form>
+	</main>
+	<hr>
+	<footer><!-- stopka -->
+		  <p>Copyright &copy; Bartłomiej Łysoń 2020</p>
+	</footer>
+  </body>
+</html>
